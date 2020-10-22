@@ -15,13 +15,14 @@ window.addEventListener("scroll", () => {
 // ********** smooth scroll ************
 // select links
 
-var MenuItems = document.getElementById("nav-menu");
+var MenuItems = document.getElementById("nav-bar");
 var TogglerBtn = document.getElementById("toggler");
+var NavMenu = document.getElementById("nav-menu");
 
-MenuItems.style.height = "0px";
+MenuItems.style.height = "4rem";
 
 TogglerBtn.addEventListener("click", () => {
-  MenuItems.style.height == "0px"
-    ? (MenuItems.style.height = "270px")
-    : (MenuItems.style.height = "0px");
+  MenuItems.style.height == "4rem"
+    ? (MenuItems.style.height = "350px") && (NavMenu.style.display = "block")
+    : (MenuItems.style.height = "4rem") && (NavMenu.style.display = "none");
 });
