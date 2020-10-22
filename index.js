@@ -23,6 +23,11 @@ MenuItems.style.height = "4rem";
 
 TogglerBtn.addEventListener("click", () => {
   MenuItems.style.height == "4rem"
-    ? (MenuItems.style.height = "350px") && (NavMenu.style.display = "block")
+    ? (MenuItems.style.height = "316px") && (NavMenu.style.display = "block")
     : (MenuItems.style.height = "4rem") && (NavMenu.style.display = "none");
+});
+
+NavMenu.addEventListener("click", () => {
+  MenuItems.style.height = "4rem";
+  NavMenu.style.display = "none";
 });

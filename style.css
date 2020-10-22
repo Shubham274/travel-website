@@ -87,7 +87,6 @@ footer {
 
 .nav-menu {
   display: flex;
-  margin-bottom: 16px;
 }
 
 .nav-toggler {
@@ -520,11 +519,20 @@ input,
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 993px) {
   .about-us {
     display: flex;
     justify-content: space-between;
   }
+
+  .navbar {
+    height: 4rem !important;
+  }
+
+  .nav-menu {
+    display: flex !important;
+  }
+
   .image-container {
     flex: 0 0 calc(50% - 2rem);
     position: relative;
