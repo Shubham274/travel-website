@@ -31,3 +31,8 @@ NavMenu.addEventListener("click", () => {
   MenuItems.style.height = "4rem";
   NavMenu.style.display = "none";
 });
+
+let scrolltop = document.getElementById("#scroll");
+scrolltop.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});

@@ -399,6 +399,7 @@ input,
   background-color: #222;
   padding-left: 2rem;
   padding-right: 2rem;
+  position: relative;
 }
 
 .footer-items {
@@ -442,6 +443,22 @@ input,
   color: #fff;
   font-size: 17px;
   letter-spacing: 5px;
+}
+.scroll {
+  position: absolute;
+  right: 31px;
+  top: 8rem;
+  padding: 15px;
+  border-radius: 50%;
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  outline: none;
+  border: none;
+  color: #3fd0d4;
+}
+
+.scroll:hover {
+  color: #000;
 }
 
 /*--------------Responsive------------------*/
